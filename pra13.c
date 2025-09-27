@@ -1,18 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int i,a=10;
+    int i;
 
-    for(int i=0; i<=10; i++)
+    for(i=10; i<=100; i++)
     {
-         if (a*i==100)
-         {
-             printf("tank is full %d\n",a*i);
-         }
-         else
-         {
-             printf("current water level is: %d\n", a*i,i);
-         }
+             printf("current water level: %d\n",i);
     }
+    printf("Tank is full");
+
     return 0;
 }
