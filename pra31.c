@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 int main() {
-    printf("Aayesha Shaikh-25CE113\n");
     char *summary;
     int initialSize, newSize;
 
@@ -39,3 +38,4 @@ int main() {
 
     return 0;
 }
+
